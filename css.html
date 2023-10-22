@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+ 
+
+</head>
+<style>
+    /* blur hover */
+    .container  {
+        background-color: green;
+        width: 50vw;
+        height:50vh;
+    } 
+  
+    .heading::before {
+       content: 'before content ';
+    }
+    .heading::after {
+        content: ' content after ';
+        color: red;
+    }
+</style>
+<body>
+    <!-- sibling ( cùng cấp) -->
+    <div class="container">
+        <h1 class="heading">heading</h1>
+    </div>
+
+</body>
+</html>
